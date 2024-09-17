@@ -1,0 +1,149 @@
+@media print {
+    #main-description {
+        margin-top: 10px;
+    }
+    
+    .dotted-box {
+        padding: 7px
+    }
+    
+    .dotted-input-text {
+        font-size: 12px;  
+    }
+
+    .dotted-input-under-title {
+        margin-top: 0px;
+    }
+
+    .section-title {
+        margin-top: 5px;
+    }
+
+    .input-title, .observations-remarks {
+        font-size: 12px;
+    }
+
+    .observations-remarks {
+        margin-top: 3px;
+    }
+
+    .internship-job-of {
+        margin-top: 15px;
+    }
+    
+    .appreciations-text {
+        font-size: 12px;
+        gap: 42px;
+    }
+
+    /* Radios related */
+    .radios-section {
+        max-width: 550px;
+    }
+
+    .radio-inputs-and-titles {
+        margin-bottom: -3px;
+        margin-top: -3px;
+    }
+
+    .radio-input {
+        -ms-transform: scale(0.9); /* IE 9 */
+        -webkit-transform: scale(0.9); /* Chrome, Safari, Opera */
+        transform: scale(0.9);
+    }
+
+    /* "Section" titles */
+    .text-3xl {
+        font-size: 20px;
+    }
+
+    /* Etat de vaud "signature" component */
+    .etat-de-vaud-div {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .etat-de-vaud-logo {
+        width: 15px;
+    }
+
+    .etat-de-vaud-text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .etat-de-vaud-separator {
+        width: auto;
+        height: auto;
+        overflow: visible;
+    }
+
+    .less-margin-top {
+        margin-top: 15px;
+    }
+
+    .take-time {
+        margin-top: 30px;
+        flex-direction: row;
+    }
+
+    /* "Note à l'intention du / de la stagiaire */
+    .intern-note-box {
+        height: 125px;
+    }
+
+    .intern-note-title {
+        font-size: 12px;
+    }
+
+    .contact-with-other  {
+        padding-top: 30px;
+    }
+
+    .date-signature {
+        gap: 15px;
+    }
+
+    /* STAGIAIRE RAPPORT */
+    .activities-input {
+        width: 170px;
+        padding-right: 0;
+    }
+
+    .smileys-images-div {
+        display: flex;
+    }
+
+    .label-radios-div {
+        gap: 10px;
+    }
+
+    .progress-internship-div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        white-space: nowrap;
+    }
+
+    .observations-remarks-activities-list {
+        font-size: 12px;
+        margin-top: 35px;
+    }
+
+    .having-qualities-radio-label {
+        gap: 4px;
+    }
+
+    .admission-test-radios-div {
+        gap: 70px;
+    }
+
+    .radio-input-label {
+        padding-top: 3px;
+    }
+
+    .less-margin-conclusion {
+        margin-top: 33px;
+    }
+}
