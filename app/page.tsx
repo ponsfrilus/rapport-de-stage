@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-5xl">Rapport de stage</h1>
       <div className="flex flex-col text-center gap-2">
         Cet outil permet de générer de manière interactive les rapports de stages 
-        que le canton de Vaud ne propose qu'en PDF.
+        que le canton de Vaud ne propose qu’en PDF.
         <p>
         Si nécessaire, les documents officiels se trouvent sur <Link
             href="https://www.vd.ch/formation/orientation/faire-des-stages"
@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex flex-col text-center gap-2">
         <p>
           Tu as effectué un stage en vue d’une formation professionnelle initiale.
-          Prends la peine de remplir ce rapport de stage: tes impressions et tes 
+          Prends la peine de remplir ce rapport de stage : tes impressions et tes
           observations seront d’une grande utilité pour la suite de tes démarches.
           <br />
           <Link
@@ -29,7 +29,7 @@ export default function Home() {
         </p>
         <br />
         <p>
-          Vous avez reçu cet/cette élève pour un stage en vue d’une formation 
+          Vous avez reçu cet/cette élève pour un stage en vue d’une formation
           professionnelle initiale. Vos impressions, vos observations sont d’un
           grand intérêt pour la préparation de son choix.
           <br />
