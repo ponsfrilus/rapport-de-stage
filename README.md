@@ -1,11 +1,11 @@
-# Rapport de stage
+# 🍓 Rapport de stage
 
 ## À propos
 
 Le but du projet est de fournir une page web permettant de
 générer un rapport de stage, au format officiel du canton de
-Vaud, de manière interactive. Vous pouvez utiliser le résultat sur
-[https://epfl-fsd.github.io/rapport-de-stage/](https://epfl-fsd.github.io/rapport-de-stage/).
+Vaud, de manière interactive. Vous pouvez remplir le rapport de stage directement depuis 
+[https://epfl-fsd.github.io/rapport-de-stage/](https://epfl-fsd.github.io/rapport-de-stage/) ; il suffit ensuite de l'imprimer (<kbd>ctrl</kbd>+<kbd>P</kbd>).
 
 Les documents officiels du canton se trouvent sur
 [vd.ch/formation/orientation/faire-des-stages](https://www.vd.ch/formation/orientation/faire-des-stages).
