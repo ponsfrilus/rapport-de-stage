@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
 import EtatDeVaudSignature from "../components/EtatDeVaudSignature";
+import { reportStorageInterface } from "@/interfaces/reportStorageInterface";
 
 export default function Page() {
     const inputFile = React.useRef<HTMLInputElement | null>(null);
-    const [rapportStorage, setRapportStorage] = React.useState({});
+    const [rapportStorage, setRapportStorage] = React.useState<reportStorageInterface>({})
     
     React.useEffect(() => {
         const storedData = localStorage.getItem('rapport-de-stage');
@@ -13,7 +14,7 @@ export default function Page() {
         }
     }, []);
 
-    const handleFileUpload = e => {
+    const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
         const confirm = window.confirm('Voulez-vous vraiment importer les données de ce fichier ?')
         if(confirm) {
             const { files } = e.target;
@@ -29,7 +30,7 @@ export default function Page() {
               const reader = new FileReader();
               reader.onload = (event) => {
                   try {
-                      const fileContent = event.target.result;
+                      const fileContent = event.target?.result as string;
                       const jsonData = JSON.parse(fileContent);
                       localStorage.setItem('rapport-de-stage', JSON.stringify(jsonData))
                       location.reload()
@@ -46,13 +47,13 @@ export default function Page() {
         }
     };
 
-    function updateStorageOnChange(element, elementValue) {
-        rapportStorage[element] = elementValue
+    function updateStorageOnChange(element:string, elementValue:string) {
+        rapportStorage[element as keyof reportStorageInterface] = elementValue
         localStorage.setItem('rapport-de-stage', JSON.stringify(rapportStorage))
     }
 
     function onButtonClick() {
-        inputFile.current.click();
+        inputFile.current?.click();
     };
 
     function download(filename:any, text:any) {
